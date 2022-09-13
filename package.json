@@ -1,0 +1,28 @@
+{
+  "name": "netportal",
+  "version": "1.0.0",
+  "description": "services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index || node-sass -w ./public/scss -o ./public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teyhd/netportal.git"
+  },
+  "author": "TEYHD",
+  "license": "ISC",
+  "dependencies": {
+    "activedirectory": "^0.7.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "fs-extra": "^10.1.0",
+    "nodemon": "^2.0.19"
+  },
+  "bugs": {
+    "url": "https://github.com/teyhd/netportal/issues"
+  },
+  "homepage": "https://github.com/teyhd/netportal#readme"
+}

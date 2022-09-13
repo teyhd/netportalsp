@@ -1,0 +1,664 @@
+
+ 11:29:30 Глобальный косяк приложения!!!  ReferenceError: exphbs is not defined
+    at Object.<anonymous> (F:\netportal\index.js:17:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+ 11:31:07 Глобальный косяк приложения!!!  ReferenceError: cookieParser is not defined
+    at Object.<anonymous> (F:\netportal\index.js:55:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+ 11:31:24 Глобальный косяк приложения!!!  ReferenceError: session is not defined
+    at Object.<anonymous> (F:\netportal\index.js:56:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47
+ 11:31:57 Сервер менеджера новостей - запущен
+ 11:31:57 Порт: 80
+ 11:34:48 Сервер менеджера новостей - запущен
+ 11:34:48 Порт: 80
+ 11:35:08 Сервер менеджера новостей - запущен
+ 11:35:08 Порт: 80
+ 11:36:06 Сервер менеджера новостей - запущен
+ 11:36:06 Порт: 80
+ 11:36:45 Сервер менеджера новостей - запущен
+ 11:36:45 Порт: 80
+ 11:37:19 Сервер менеджера новостей - запущен
+ 11:37:19 Порт: 80
+ 11:37:28 Сервер менеджера новостей - запущен
+ 11:37:28 Порт: 80
+ 11:37:29 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:09 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:11 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:24 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /css/main.css
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /lib.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /main.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /favicon.ico
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:38:49 На /favicon.ico
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:07 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:07 На /css/main.css
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:07 На /lib.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:07 На /main.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:24 Сервер менеджера новостей - запущен
+ 11:39:24 Порт: 80
+ 11:39:26 На /
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:26 На /css/main.css
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:26 На /lib.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:26 На /main.js
+ IP: 1 
+ Имя: undefined 
+ Auth: undefined
+ 11:39:39 Сервер менеджера новостей - запущен
+ 11:39:39 Порт: 80
+ 11:40:25 Сервер менеджера новостей - запущен
+ 11:40:25 Порт: 80
+ 11:40:27 На /
+ IP: 1 
+ Auth: false
+ 11:40:27 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:40:27 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:40:27 На /main.js
+ IP: 1 
+ Auth: false
+ 11:40:38 На /stat
+ IP: 1 
+ Auth: false
+ 11:40:38 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:40:38 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:40:38 На /main.js
+ IP: 1 
+ Auth: false
+ 11:40:38 На /img/404.jpg
+ IP: 1 
+ Auth: false
+ 11:40:40 На /stat
+ IP: 1 
+ Auth: false
+ 11:40:40 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:40:40 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:40:40 На /main.js
+ IP: 1 
+ Auth: false
+ 11:40:40 На /img/404.jpg
+ IP: 1 
+ Auth: false
+ 11:40:58 Сервер менеджера новостей - запущен
+ 11:40:58 Порт: 80
+ 11:40:59 На /stat
+ IP: 1 
+ Auth: false
+ 11:40:59 На /
+ IP: 1 
+ Auth: false
+ 11:40:59 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:40:59 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:40:59 На /main.js
+ IP: 1 
+ Auth: false
+ 11:40:59 На /
+ IP: 1 
+ Auth: false
+ 11:40:59 На /
+ IP: 1 
+ Auth: false
+ 11:40:59 На /
+ IP: 1 
+ Auth: false
+ 11:42:31 На /
+ IP: 1 
+ Auth: false
+ 11:42:31 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:42:31 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:42:31 На /main.js
+ IP: 1 
+ Auth: false
+ 11:42:31 На /
+ IP: 1 
+ Auth: false
+ 11:42:31 На /
+ IP: 1 
+ Auth: false
+ 11:42:31 На /
+ IP: 1 
+ Auth: false
+ 11:42:58 На /
+ IP: 1 
+ Auth: false
+ 11:42:58 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:42:58 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:42:58 На /main.js
+ IP: 1 
+ Auth: false
+ 11:42:58 На /
+ IP: 1 
+ Auth: false
+ 11:42:58 На /
+ IP: 1 
+ Auth: false
+ 11:42:58 На /
+ IP: 1 
+ Auth: false
+ 11:44:03 На /
+ IP: 1 
+ Auth: false
+ 11:44:03 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:44:03 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:44:03 На /main.js
+ IP: 1 
+ Auth: false
+ 11:44:03 На /
+ IP: 1 
+ Auth: false
+ 11:44:03 На /
+ IP: 1 
+ Auth: false
+ 11:44:03 На /
+ IP: 1 
+ Auth: false
+ 11:44:43 На /
+ IP: 1 
+ Auth: false
+ 11:44:43 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:44:43 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:44:43 На /main.js
+ IP: 1 
+ Auth: false
+ 11:44:43 На /
+ IP: 1 
+ Auth: false
+ 11:44:43 На /
+ IP: 1 
+ Auth: false
+ 11:44:43 На /
+ IP: 1 
+ Auth: false
+ 11:44:49 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:44:49 На /
+ IP: 1 
+ Auth: false
+ 11:45:02 На /
+ IP: 1 
+ Auth: false
+ 11:45:02 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:45:02 На /
+ IP: 1 
+ Auth: false
+ 11:45:02 На /favicon.ico
+ IP: 1 
+ Auth: false
+ 11:45:02 На /
+ IP: 1 
+ Auth: false
+ 11:45:02 На /favicon.ico
+ IP: 1 
+ Auth: false
+ 11:45:02 На /
+ IP: 1 
+ Auth: false
+ 11:45:46 На /
+ IP: 1 
+ Auth: false
+ 11:45:46 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:45:46 На /
+ IP: 1 
+ Auth: false
+ 11:46:29 На /
+ IP: 1 
+ Auth: false
+ 11:46:30 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:46:30 На /lib.js
+ IP: 1 
+ Auth: false
+ 11:46:30 На /main.js
+ IP: 1 
+ Auth: false
+ 11:46:30 На /
+ IP: 1 
+ Auth: false
+ 11:46:30 На /
+ IP: 1 
+ Auth: false
+ 11:46:30 На /
+ IP: 1 
+ Auth: false
+ 11:46:54 Сервер менеджера новостей - запущен
+ 11:46:54 Порт: 80
+ 11:46:56 На /
+ IP: 1 
+ Auth: false
+ 11:46:56 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:46:57 На /
+ IP: 1 
+ Auth: false
+ 11:46:57 На /data
+ IP: 1 
+ Auth: false
+ 11:46:57 На /
+ IP: 1 
+ Auth: false
+ 11:47:27 Сервер менеджера новостей - запущен
+ 11:47:27 Порт: 80
+ 11:47:35 На /
+ IP: 1 
+ Auth: false
+ 11:47:35 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:47:35 На /
+ IP: 1 
+ Auth: false
+ 11:47:35 На /data
+ IP: 1 
+ Auth: false
+ 11:47:35 На /
+ IP: 1 
+ Auth: false
+ 11:48:09 Сервер менеджера новостей - запущен
+ 11:48:09 Порт: 80
+ 11:48:10 На /
+ IP: 1 
+ Auth: false
+ 11:48:10 На /css/main.css
+ IP: 1 
+ Auth: false
+ 11:48:10 На /
+ IP: 1 
+ Auth: false
+ 11:49:07 На /
+ IP: 1 
+ Auth: false
+ 11:49:11 На /
+ IP: 1 
+ Auth: false
+ 11:50:25 На /
+ IP: 1 
+ Auth: false
+ 11:51:30 Сервер менеджера новостей - запущен
+ 11:51:30 Порт: 80
+ 11:53:20 Сервер менеджера новостей - запущен
+ 11:53:20 Порт: 80
+ 11:53:24 На /auth
+ IP: 1 
+ Auth: false
+ 11:53:24 На сервер пришел пароль: v.diakonov
+ 11:54:08 Сервер менеджера новостей - запущен
+ 11:54:08 Порт: 80
+ 11:54:55 Сервер менеджера новостей - запущен
+ 11:54:55 Порт: 80
+ 11:55:19 Сервер менеджера новостей - запущен
+ 11:55:19 Порт: 80
+ 11:55:20 На /
+ IP: 1 
+ Auth: false
+ 11:55:23 На /auth
+ IP: 1 
+ Auth: false
+ 11:55:23 На сервер пришел пароль: v.diakonov
+ 11:55:23 На /
+ IP: 1 
+ Auth: 3
+ 11:56:47 На /
+ IP: 1 
+ Auth: 3
+ 12:00:52 На /
+ IP: 1 
+ Auth: 3
+ 12:01:04 На /
+ IP: 1 
+ Auth: 3
+ 12:01:19 На /
+ IP: 1 
+ Auth: 3
+ 12:01:42 На /
+ IP: 1 
+ Auth: 3
+ 12:01:48 На /
+ IP: 1 
+ Auth: 3
+ 12:01:56 На /
+ IP: 1 
+ Auth: 3
+ 12:02:32 На /
+ IP: 1 
+ Auth: 3
+ 12:02:46 На /
+ IP: 1 
+ Auth: 3
+ 12:03:10 На /
+ IP: 1 
+ Auth: 3
+ 12:03:19 На /
+ IP: 1 
+ Auth: 3
+ 12:03:22 На /
+ IP: 1 
+ Auth: 3
+ 12:03:23 На /
+ IP: 1 
+ Auth: 3
+ 12:03:48 На /
+ IP: 1 
+ Auth: 3
+ 12:03:56 На /
+ IP: 1 
+ Auth: 3
+ 12:04:02 На /
+ IP: 1 
+ Auth: 3
+ 12:04:09 На /
+ IP: 1 
+ Auth: 3
+ 12:04:13 На /
+ IP: 1 
+ Auth: 3
+ 12:04:13 На /
+ IP: 1 
+ Auth: 3
+ 12:04:21 На /
+ IP: 1 
+ Auth: 3
+ 12:04:27 На /
+ IP: 1 
+ Auth: 3
+ 12:04:38 На /
+ IP: 1 
+ Auth: 3
+ 12:05:24 На /
+ IP: 1 
+ Auth: 3
+ 12:07:07 На /
+ IP: 1 
+ Auth: 3
+ 12:07:07 На /img/news.jpg
+ IP: 1 
+ Auth: 3
+ 12:07:16 На /
+ IP: 1 
+ Auth: 3
+ 12:08:34 На /
+ IP: 1 
+ Auth: 3
+ 12:08:47 На /
+ IP: 1 
+ Auth: 3
+ 12:08:55 На /
+ IP: 1 
+ Auth: 3
+ 12:09:02 На /
+ IP: 1 
+ Auth: 3
+ 12:09:20 На /
+ IP: 1 
+ Auth: 3
+ 12:09:46 На /
+ IP: 1 
+ Auth: 3
+ 12:21:17 На /
+ IP: 1 
+ Auth: 3
+ 12:22:40 На /
+ IP: 1 
+ Auth: 3
+ 12:23:14 На /
+ IP: 1 
+ Auth: 3
+ 12:24:04 На /
+ IP: 1 
+ Auth: 3
+ 12:24:14 На /
+ IP: 1 
+ Auth: 3
+ 12:24:24 На /
+ IP: 1 
+ Auth: 3
+ 12:24:25 На /
+ IP: 1 
+ Auth: 3
+ 12:24:40 На /
+ IP: 1 
+ Auth: 3
+ 12:25:05 На /
+ IP: 1 
+ Auth: 3
+ 12:25:48 На /
+ IP: 1 
+ Auth: 3
+ 12:25:55 На /
+ IP: 1 
+ Auth: 3
+ 12:26:11 На /
+ IP: 1 
+ Auth: 3
+ 12:26:16 На /
+ IP: 1 
+ Auth: 3
+ 12:26:29 На /
+ IP: 1 
+ Auth: 3
+ 12:26:44 На /
+ IP: 1 
+ Auth: 3
+ 12:26:50 На /
+ IP: 1 
+ Auth: 3
+ 12:26:58 На /
+ IP: 1 
+ Auth: 3
+ 12:27:11 На /
+ IP: 1 
+ Auth: 3
+ 12:28:19 На /
+ IP: 1 
+ Auth: false
+ 12:28:24 На /auth
+ IP: 1 
+ Auth: false
+ 12:28:24 На сервер пришел пароль: v.diakonov
+ 12:28:24 На /
+ IP: 1 
+ Auth: 3
+ 12:28:26 На /
+ IP: 1 
+ Auth: 3
+ 12:28:33 На /
+ IP: 1 
+ Auth: 3
+ 12:28:46 На /
+ IP: 1 
+ Auth: 3
+ 12:30:37 На /
+ IP: 1 
+ Auth: 3
+ 12:30:46 На /
+ IP: 1 
+ Auth: 3
+ 12:30:54 На /
+ IP: 1 
+ Auth: 3
+ 12:31:11 На /
+ IP: 1 
+ Auth: 3
+ 12:31:30 На /
+ IP: 1 
+ Auth: 3
+ 12:32:32 На /
+ IP: 1 
+ Auth: 3
+ 12:32:39 На /
+ IP: 1 
+ Auth: 3
+ 12:32:51 На /
+ IP: 1 
+ Auth: 3
+ 12:33:19 На /
+ IP: 1 
+ Auth: 3
+ 12:33:38 На /
+ IP: 1 
+ Auth: 3
+ 12:33:49 На /
+ IP: 1 
+ Auth: 3
+ 12:46:14 На /
+ IP: 1 
+ Auth: false
+ 12:46:18 На /auth
+ IP: 1 
+ Auth: false
+ 12:46:18 На сервер пришел пароль: v.diakonov
+ 12:46:18 На /
+ IP: 1 
+ Auth: 3
+ 12:46:46 На /
+ IP: 1 
+ Auth: 3
+ 12:47:33 На /
+ IP: 1 
+ Auth: 3
+ 12:47:58 На /
+ IP: 1 
+ Auth: 3
+ 13:10:00 На /
+ IP: 1 
+ Auth: 3
+ 13:10:49 На /
+ IP: 1 
+ Auth: 3
+ 13:10:53 На /
+ IP: 1 
+ Auth: 3
+ 13:12:14 На /
+ IP: 1 
+ Auth: 3
+ 13:12:46 На /
+ IP: 1 
+ Auth: 3
+ 13:24:50 На /
+ IP: 1 
+ Auth: 3
+ 13:24:51 На /
+ IP: 1 
+ Auth: 3
+ 13:24:52 На /
+ IP: 1 
+ Auth: 3
+ 13:24:52 На /
+ IP: 1 
+ Auth: 3
+ 13:24:52 На /
+ IP: 1 
+ Auth: 3
+ 13:25:04 На /
+ IP: 1 
+ Auth: 3
+ 13:25:05 На /
+ IP: 1 
+ Auth: 3
+ 13:26:45 На /
+ IP: 1 
+ Auth: 3
