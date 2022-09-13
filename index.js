@@ -153,9 +153,6 @@ function getadmin(str){
     case "v.diakonov":
       return 3
     break;
-    case "e.grishina":
-      return 2
-    break;
   }
   return 1
 }
