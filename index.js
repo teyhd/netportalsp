@@ -151,7 +151,7 @@ var PORT = process.env.PORT || 501;
 async function start(){
     try {
         app.listen(PORT,()=> {
-          logman.log('Сервер менеджера новостей - запущен')
+          logman.log('Распределительный портал - запущен')
           logman.log('Порт:',PORT);
         })
     } catch (e) {
