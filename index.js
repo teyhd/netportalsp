@@ -56,17 +56,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use(session({resave:false,saveUninitialized:false, secret: 'keyboard cat', cookie: {  }}))
-var PORT = process.env.PORT || 80; 
-async function start(){
-    try {
-        app.listen(PORT,()=> {
-          logman.log('Сервер менеджера новостей - запущен')
-          logman.log('Порт:',PORT);
-        })
-    } catch (e) {
-        logman.log(e);
-    }
-}
+
 
 var auth = false;
 var usrinfo = false;
@@ -155,5 +145,17 @@ function getadmin(str){
     break;
   }
   return 1
+}
+
+var PORT = process.env.PORT || 3000; 
+async function start(){
+    try {
+        app.listen(PORT,()=> {
+          logman.log('Сервер менеджера новостей - запущен')
+          logman.log('Порт:',PORT);
+        })
+    } catch (e) {
+        logman.log(e);
+    }
 }
 start()
