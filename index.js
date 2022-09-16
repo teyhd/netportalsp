@@ -87,7 +87,14 @@ app.get('/',(req,res)=>{
     //stat: statusarr,
     //content: news_resul   
   });
-
+})
+app.get('/form',(req,res)=>{
+  res.render('form',{
+    title: 'TEST',
+    auth: auth,
+    //stat: statusarr,
+    //content: news_resul   
+  });
 })
 app.get('/auth', function(req, res) {
     logman.log('На сервер пришел пароль: '+req.query.pass);
@@ -147,7 +154,7 @@ function getadmin(str){
   return 1
 }
 
-var PORT = process.env.PORT || 501; 
+var PORT = process.env.PORT || 80; 
 async function start(){
     try {
         app.listen(PORT,()=> {

@@ -6,7 +6,9 @@ $(document).ready(function(){
 
       // Or with jQuery
       $('.modal').modal();
-    
+      $('select').formSelect();
       $('.materialboxed').materialbox();
       $( "#mpopup" ).hide();
+
+
 })

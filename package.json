@@ -19,7 +19,8 @@
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "fs-extra": "^10.1.0",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "nouislider": "^15.6.1"
   },
   "bugs": {
     "url": "https://github.com/teyhd/netportal/issues"
