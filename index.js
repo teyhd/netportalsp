@@ -12,7 +12,7 @@ var ActiveDirectory = require('activedirectory');
 var config = { url: 'ldap://panspb.local',
                baseDN: 'dc=panspb,dc=local',
                username: 'v.diakonov@panspb.local',
-               password: '147258001' }
+               password: '147258000' }
 var ad = new ActiveDirectory(config);  
 
 const app = express();
@@ -68,7 +68,7 @@ app.use(function (req, res, next) {
     logman.log(`На ${page}\n IP: ${ipinfo} \n Auth: ${auth}`);
     console.dir(req.session.auth)
   if (page!='/auth'){
-    if (!auth && ipinfo!=11){ //Я ИСКЛЮЧЕНИЕ
+    if (!auth && ipinfo!=1){ //Я ИСКЛЮЧЕНИЕ
       if (page!='/') {
         res.redirect("/")
       } else
@@ -81,9 +81,11 @@ app.use(function (req, res, next) {
   } else next();
 });
 app.get('/',(req,res)=>{
+  let set = {s:12,m:6,h:6,l:6}
   res.render('index',{
     title: 'Сервисы',
     auth: auth,
+    set: set
     //stat: statusarr,
     //content: news_resul   
   });
