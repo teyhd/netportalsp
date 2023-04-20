@@ -81,11 +81,57 @@ app.use(function (req, res, next) {
   } else next();
 });
 app.get('/',(req,res)=>{
-  let set = {s:12,m:6,h:6,l:6}
+  let set = {s:12,m:3,h:3,l:3}
+  var menu = [{
+    link: "http://stud.pansion.spb.ru:502/",
+    text: "Индивидуальный маршрут",
+    pic: "stud.png",
+  },
+  {
+    link: "http://news.pansion.spb.ru:500/",
+    text: "Менеджер новостей",
+    pic: "news.png",
+  },
+  {
+    link: "https://ps01.pansion.spb.ru/owa/",
+    text: "Почта Пансиона",
+    pic: "outlook.png",
+  },
+  {
+    link: "http://cloud.pansion.spb.ru:9008",
+    text: "Общий ресурс",
+    pic: "cloud.png",
+  },
+  {
+    link: "http://otrs.pansion.spb.ru:7750/otrs/customer.pl",
+    text: "Система электронных заявок",
+    pic: "otrs.png",
+  },
+  {
+    link: "http://otrs.pansion.spb.ru:7750/otrs/customer.pl",
+    text: "Инструкции",
+    pic: "manu.png",
+  },
+  {
+    link: "/tel",
+    text: "Телефонный справочник",
+    pic: "phone.png",
+  },
+  ]
+  
   res.render('index',{
     title: 'Сервисы',
     auth: auth,
-    set: set
+    set: set,
+    menu:menu
+    //stat: statusarr,
+    //content: news_resul   
+  });
+})
+app.get('/tel',(req,res)=>{
+  res.render('tel',{
+    title: 'TEST',
+    auth: auth,
     //stat: statusarr,
     //content: news_resul   
   });
@@ -168,3 +214,5 @@ async function start(){
     }
 }
 start()
+
+
