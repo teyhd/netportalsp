@@ -108,7 +108,7 @@ app.get('/',(req,res)=>{
     pic: "otrs.png",
   },
   {
-    link: "http://otrs.pansion.spb.ru:7750/otrs/customer.pl",
+    link: "/manual",
     text: "Инструкции",
     pic: "manu.png",
   },
@@ -128,9 +128,20 @@ app.get('/',(req,res)=>{
     //content: news_resul   
   });
 })
+app.get('/manual',(req,res)=>{
+  let files = fs.readdirSync(path.join(path.dirname(require.main.filename),"public/docs"))
+  console.log(files);
+  res.render('manual',{
+    title: 'Инструкции',
+    auth: auth,
+    files:files
+    //stat: statusarr,
+    //content: news_resul   
+  });
+})
 app.get('/tel',(req,res)=>{
   res.render('tel',{
-    title: 'TEST',
+    title: 'Телефонный справочник',
     auth: auth,
     //stat: statusarr,
     //content: news_resul   
