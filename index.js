@@ -51,7 +51,7 @@ helpers: {
 
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
-app.set('views','views');
+app.set('views',path.join(path.dirname(require.main.filename),'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
