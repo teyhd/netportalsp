@@ -114,12 +114,12 @@ app.get('/',(req,res)=>{
     link: "/manual",
     text: "Инструкции",
     pic: "manu.png",
-  },
+  }/*,
   {
     link: "/tel",
     text: "Телефонный справочник",
     pic: "phone.png",
-  },
+  },*/
   ]
   
   res.render('index',{
