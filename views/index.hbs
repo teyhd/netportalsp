@@ -1,10 +1,41 @@
+<style>
+  .l{
+    height: 400px;  
+  }
+  .h{
+    height: 300px;
+  }
+.bl{
+ 
+
+}
+</style>
+<br>
 <div class="row">
+   {{#each menu}}
+  <div class="bl col s6 m4 h4 l3 ">
+    <a href="{{this.link}}">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/{{this.pic}}">
+        </div>
+        <div class="card-content">
+          <p>{{{this.text}}}</p>
+        </div>
+
+      </div>    
+    </a>
+  </div>
+  {{/each}}
+</div>
+
+<!-- <div class="row">
     {{#each menu}}
-      <div class="col s6 m6 h4 l3 ">
+      <div id="block" class="col s6 m4 h4 l3">
                 <a href="{{this.link}}">
-                <p class="center-align" style="font-size: 20px;">{{this.text}}</p>
-                <img  class="responsive-img" width="300" src="img/{{this.pic}}">     
+                <img class="responsive-img center center-align" src="img/{{this.pic}}"> 
+                <p class="flow-text center-align center" style="">{{this.text}}</p>    
                 </a>
             </div> 
     {{/each}}
-    </div>
+</div> -->

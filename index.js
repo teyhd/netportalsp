@@ -51,12 +51,10 @@ helpers: {
 
 app.engine('hbs', hbs.engine);
 app.set('view engine', 'hbs');
-app.set('views','views');
+app.set('views',path.join(path.dirname(require.main.filename),'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 app.use(session({resave:false,saveUninitialized:false, secret: 'keyboard cat', cookie: {  }}))
-
 
 var auth = false;
 var usrinfo = false;
@@ -93,13 +91,18 @@ app.get('/',(req,res)=>{
     pic: "news.png",
   },
   {
+    link: "/lms.exe",
+    text: "LMS (для установки дома)",
+    pic: "lms.png",
+  },
+  {
     link: "https://ps01.pansion.spb.ru/owa/",
-    text: "Почта Пансиона",
+    text: "Почта Пансиона &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;",
     pic: "outlook.png",
   },
   {
     link: "http://cloud.pansion.spb.ru:9008",
-    text: "Общий ресурс",
+    text: "Общий ресурс &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;",
     pic: "cloud.png",
   },
   {
